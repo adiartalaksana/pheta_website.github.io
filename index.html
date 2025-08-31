@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pheta Academy - Bimbingan Riset Profesional</title>
+    
+    <!-- Impor Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Impor Font dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Menggunakan font Inter sebagai font utama */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Style untuk menandai link navigasi yang aktif */
+        .nav-active {
+            color: #2563eb; /* Biru terang */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- BAGIAN HEADER DAN NAVIGASI -->
+    <header id="header" class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900">
+                Pheta<span class="text-blue-600">.</span>Academy
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Home</a>
+                <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Tentang Kami</a>
+                <a href="#tools" class="nav-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Tools</a>
+                <a href="#testimonials" class="nav-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimoni</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600 transition-colors duration-300">Hubungi Kami</a>
+            </nav>
+            <!-- Tombol menu untuk mobile (opsional) -->
+            <button class="md:hidden text-gray-700">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+
+        <!-- BAGIAN 1: HOME -->
+        <section id="home" class="pt-24 pb-16">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+                        Membimbing Visi Riset Anda Menjadi Kenyataan
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Kami menyediakan layanan bimbingan penelitian, analisis data, dan penulisan ilmiah yang terstruktur untuk mahasiswa dan para profesional.
+                    </p>
+                    <a href="#contact" class="bg-blue-600 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
+                        Mulai Konsultasi Gratis
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 2: TENTANG KAMI -->
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Tentang Pheta Academy</h2>
+                    <p class="text-md text-gray-500 mt-2">Partner terpercaya dalam perjalanan riset Anda.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Team+Pheta" alt="Tim Pheta Academy" class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Misi Kami</h3>
+                        <p class="text-gray-600 mb-6">
+                            Misi kami adalah memberdayakan para peneliti dengan pengetahuan dan keterampilan yang dibutuhkan untuk menghasilkan karya ilmiah berkualitas tinggi. Kami percaya bahwa setiap ide riset yang cemerlang berhak mendapatkan bimbingan terbaik untuk dapat terwujud secara optimal.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-4">Mengapa Memilih Kami?</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-3 mt-1">&#10003;</span>
+                                Tim pembimbing yang ahli dan berpengalaman di bidangnya.
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-3 mt-1">&#10003;</span>
+                                Pendekatan personal yang disesuaikan dengan kebutuhan unik setiap klien.
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-3 mt-1">&#10003;</span>
+                                Komitmen penuh pada kualitas, orisinalitas, dan ketepatan waktu.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- BAGIAN BARU: TOOLS KAMI -->
+        <section id="tools" class="py-16">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Tools yang Kami Kuasai</h2>
+                    <p class="text-md text-gray-500 mt-2">Menggunakan perangkat lunak terstandar industri untuk hasil analisis terbaik.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 text-center">
+                    <!-- Tool Card 1: SPSS -->
+                    <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <img src="https://placehold.co/100x100/EBF4FF/3B82F6?text=SPSS" alt="Logo SPSS" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                        <h3 class="font-semibold text-lg text-gray-800">SPSS</h3>
+                    </div>
+                    <!-- Tool Card 2: SmartPLS -->
+                    <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <img src="https://placehold.co/100x100/EBF4FF/3B82F6?text=SmartPLS" alt="Logo SmartPLS" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                        <h3 class="font-semibold text-lg text-gray-800">SmartPLS</h3>
+                    </div>
+                    <!-- Tool Card 3: R -->
+                    <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <img src="https://placehold.co/100x100/EBF4FF/3B82F6?text=R" alt="Logo R" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                        <h3 class="font-semibold text-lg text-gray-800">R</h3>
+                    </div>
+                    <!-- Tool Card 4: Gretl -->
+                    <div class="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <img src="https://placehold.co/100x100/EBF4FF/3B82F6?text=Gretl" alt="Logo Gretl" class="w-20 h-20 mx-auto mb-4 rounded-full">
+                        <h3 class="font-semibold text-lg text-gray-800">Gretl</h3>
+                    </div>
+                    <!-- Tool Card 5: Lainnya -->
+                    <div class="p-6 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+                        <h3 class="font-semibold text-lg text-gray-500">Dan Lainnya...</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 4: TESTIMONI & PENILAIAN -->
+        <section id="testimonials" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Testimoni & Penilaian Klien</h2>
+                    <p class="text-md text-gray-500 mt-2">Lihat apa yang mereka katakan tentang kami.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Testimoni Card 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col border-t-4 border-blue-500">
+                        <div class="flex items-center mb-4 text-yellow-400">
+                            <!-- Rating Bintang -->
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-gray-600 italic mb-6 flex-grow">"Proses bimbingan skripsi saya menjadi jauh lebih terarah dan efisien berkat Pheta Academy. Pembimbingnya sangat sabar dan ahli. Sangat direkomendasikan!"</p>
+                        <div class="flex items-center mt-auto">
+                            <img class="w-12 h-12 rounded-full mr-4" src="https://placehold.co/100x100/E2E8F0/4A5568?text=A" alt="Avatar Andini Putri">
+                            <div>
+                                <p class="font-semibold text-gray-900">Andini Putri</p>
+                                <p class="text-sm text-gray-500">Mahasiswa S1, Universitas Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimoni Card 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col border-t-4 border-blue-500">
+                        <div class="flex items-center mb-4 text-yellow-400">
+                             <!-- Rating Bintang -->
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-gray-600 italic mb-6 flex-grow">"Analisis data untuk tesis saya terasa sangat rumit. Tim Pheta Academy membantu menyederhanakannya dan memberikan hasil yang akurat. Pelayanannya profesional!"</p>
+                        <div class="flex items-center mt-auto">
+                            <img class="w-12 h-12 rounded-full mr-4" src="https://placehold.co/100x100/E2E8F0/4A5568?text=B" alt="Avatar Budi Santoso">
+                            <div>
+                                <p class="font-semibold text-gray-900">Budi Santoso</p>
+                                <p class="text-sm text-gray-500">Mahasiswa S2, Institut Teknologi Bandung</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimoni Card 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col border-t-4 border-blue-500">
+                        <div class="flex items-center mb-4 text-yellow-400">
+                             <!-- Rating Bintang -->
+                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-gray-600 italic mb-6 flex-grow">"Sebagai seorang profesional, saya butuh bantuan untuk publikasi ilmiah. Pheta Academy memberikan layanan yang cepat, tepat, dan berkualitas tinggi. Hasilnya memuaskan!"</p>
+                        <div class="flex items-center mt-auto">
+                            <img class="w-12 h-12 rounded-full mr-4" src="https://placehold.co/100x100/E2E8F0/4A5568?text=C" alt="Avatar Citra Lestari">
+                            <div>
+                                <p class="font-semibold text-gray-900">Citra Lestari</p>
+                                <p class="text-sm text-gray-500">Peneliti di Lembaga Swasta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- BAGIAN 5: HUBUNGI KAMI -->
+        <section id="contact" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Hubungi Kami</h2>
+                    <p class="text-md text-gray-500 mt-2">Siap untuk memulai? Hubungi kami langsung melalui WhatsApp.</p>
+                </div>
+                <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg text-center border-t-4 border-green-500">
+                    <!-- Icon WhatsApp -->
+                    <svg class="w-16 h-16 mx-auto text-green-500 mb-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-1.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.655 4.505 1.905 6.401l-1.106 4.023 4.144-1.084zM16.161 13.332c-.131-.065-1.334-.658-1.542-.733-.207-.074-.357-.118-.507.118-.15.236-.584.733-.715.883-.131.15-.262.165-.493.099-.231-.065-1.004-.367-1.912-1.179-.709-.617-1.18-1.378-1.311-1.618-.131-.237-.014-.366.104-.484.104-.104.231-.261.347-.393.116-.131.15-.216.231-.366.08-.15.04-.281-.023-.347-.065-.065-.508-1.217-.695-1.666-.18-.432-.366-.377-.507-.382-.131-.005-.281-.005-.432-.005-.15 0-.393.065-.599.347-.207.282-.799.78-799 1.902s.82 2.212.951 2.361c.131.15 1.592 2.416 3.867 3.373.537.231.957.368 1.282.474.507.165.967.149 1.325.099.393-.065 1.335-.544 1.522-1.071.188-.527.188-.973.131-1.071-.057-.099-.207-.15-.432-.261z"/>
+                    </svg>
+                    <p class="text-xl font-semibold text-gray-800 mb-2">
+                        Kontak WhatsApp Kami
+                    </p>
+                    <p class="text-2xl font-bold text-gray-900 tracking-wider mb-6">
+                        +62 123 4567 8910
+                    </p>
+                    <a href="https://wa.me/6212345678910?text=Halo%20Pheta%20Academy,%20saya%20tertarik%20untuk%20konsultasi%20riset." target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-green-500 text-white font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.269.655 4.505 1.905 6.401l-1.106 4.023 4.144-1.084zM16.161 13.332c-.131-.065-1.334-.658-1.542-.733-.207-.074-.357-.118-.507.118-.15.236-.584.733-.715.883-.131.15-.262.165-.493.099-.231-.065-1.004-.367-1.912-1.179-.709-.617-1.18-1.378-1.311-1.618-.131-.237-.014-.366.104-.484.104-.104.231-.261.347-.393.116-.131.15-.216.231-.366.08-.15.04-.281-.023-.347-.065-.065-.508-1.217-.695-1.666-.18-.432-.366-.377-.507-.382-.131-.005-.281-.005-.432-.005-.15 0-.393.065-.599.347-.207.282-.799.78-799 1.902s.82 2.212.951 2.361c.131.15 1.592 2.416 3.867 3.373.537.231.957.368 1.282.474.507.165.967.149 1.325.099.393-.065 1.335-.544 1.522-1.071.188-.527.188-.973.131-1.071-.057-.099-.207-.15-.432-.261z"/></svg>
+                        Chat Sekarang di WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- BAGIAN FOOTER -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Pheta Academy. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT UNTUK NAVIGASI AKTIF -->
+    <script>
+        // Ambil semua section dan link navigasi
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const header = document.getElementById('header');
+        const initialHeaderHeight = header.offsetHeight;
+
+        // Fungsi untuk mengubah style link navigasi yang aktif
+        const changeNavOnScroll = () => {
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                // Kurangi tinggi header agar pergantian aktif lebih akurat
+                if (pageYOffset >= sectionTop - initialHeaderHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            // Tambahkan/hapus kelas 'nav-active'
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('nav-active');
+                }
+            });
+
+            // Ganti style header saat scroll
+            if (window.scrollY > 50) {
+                header.classList.add('py-2');
+                header.classList.remove('py-4');
+            } else {
+                header.classList.add('py-4');
+                header.classList.remove('py-2');
+            }
+        };
+
+        // Tambahkan event listener saat scroll
+        window.addEventListener('scroll', changeNavOnScroll);
+        // Panggil sekali saat halaman dimuat
+        changeNavOnScroll();
+    </script>
+</body>
+</html>
+
